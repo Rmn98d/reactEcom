@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/reactEcom/static/css/main.7e6d147e.css",
-    "main.js": "/reactEcom/static/js/main.f43c9b1f.js",
-    "static/js/787.d6fe38e8.chunk.js": "/reactEcom/static/js/787.d6fe38e8.chunk.js",
-    "static/media/women.jpg": "/reactEcom/static/media/women.3a8630e7e3b9a8efa642.jpg",
-    "static/media/bootstrap-icons.woff?": "/reactEcom/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/reactEcom/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
-    "index.html": "/reactEcom/index.html",
-    "main.7e6d147e.css.map": "/reactEcom/static/css/main.7e6d147e.css.map",
-    "main.f43c9b1f.js.map": "/reactEcom/static/js/main.f43c9b1f.js.map",
-    "787.d6fe38e8.chunk.js.map": "/reactEcom/static/js/787.d6fe38e8.chunk.js.map"
+    "main.css": "/React-Ecom/static/css/main.e6e89642.css",
+    "main.js": "/React-Ecom/static/js/main.1a7181c4.js",
+    "static/js/787.d6fe38e8.chunk.js": "/React-Ecom/static/js/787.d6fe38e8.chunk.js",
+    "static/media/women.jpg": "/React-Ecom/static/media/women.3a8630e7e3b9a8efa642.jpg",
+    "static/media/bootstrap-icons.woff?": "/React-Ecom/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/React-Ecom/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/React-Ecom/index.html",
+    "main.e6e89642.css.map": "/React-Ecom/static/css/main.e6e89642.css.map",
+    "main.1a7181c4.js.map": "/React-Ecom/static/js/main.1a7181c4.js.map",
+    "787.d6fe38e8.chunk.js.map": "/React-Ecom/static/js/787.d6fe38e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e6d147e.css",
-    "static/js/main.f43c9b1f.js"
+    "static/css/main.e6e89642.css",
+    "static/js/main.1a7181c4.js"
   ]
 }
