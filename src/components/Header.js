@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import { Dropdown } from 'react-bootstrap';
 import CartComponent from './CartComponent';
-import './cart.css'
+import '/cart.css'
 import { NewCartContext } from './PropertyListing';
 
 function Header() {
