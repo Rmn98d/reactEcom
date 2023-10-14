@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/reactEcom/static/css/main.7e6d147e.css",
-    "main.js": "/reactEcom/static/js/main.a71f352d.js",
+    "main.js": "/reactEcom/static/js/main.e4f1c03c.js",
     "static/js/787.d6fe38e8.chunk.js": "/reactEcom/static/js/787.d6fe38e8.chunk.js",
     "static/media/women.jpg": "/reactEcom/static/media/women.3a8630e7e3b9a8efa642.jpg",
     "static/media/bootstrap-icons.woff?": "/reactEcom/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/reactEcom/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/reactEcom/index.html",
     "main.7e6d147e.css.map": "/reactEcom/static/css/main.7e6d147e.css.map",
-    "main.a71f352d.js.map": "/reactEcom/static/js/main.a71f352d.js.map",
+    "main.e4f1c03c.js.map": "/reactEcom/static/js/main.e4f1c03c.js.map",
     "787.d6fe38e8.chunk.js.map": "/reactEcom/static/js/787.d6fe38e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e6d147e.css",
-    "static/js/main.a71f352d.js"
+    "static/js/main.e4f1c03c.js"
   ]
 }
