@@ -50,7 +50,7 @@ function Details() {
         <div>Loading...</div>
       ) : (
         <>
-          <Row className='row detail '>
+                 <Row className='row detail '>
             <h1 style={{ color:'rgb(26, 15, 46)',fontSize:'50px',fontWeight:'bold'}}>Details</h1>
 
             <Col className=" col-md-2 col-12 order-md-1 order-2 col">
@@ -111,8 +111,7 @@ function Details() {
 ))}
 
 
-            </Col>           
-          </Row>
+            </Col>  
 
         </>
       )}
