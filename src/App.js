@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PropertyListing from './components/PropertyListing';
 import Details from './components/Details';
-import { CartComponent} from './components/CartComponent';
+import CartComponent from './components/CartComponent';
 import axios from 'axios';
 import NavigationHeading from './components/NavigationHeading';
 import Header from './components/Header';
@@ -25,15 +25,14 @@ function App() {
 
   return (
     <Router>
-    {/* <Carousal/> */}
-      {/* <Header/> */}
+  
      
-        <Routes>
-          <Route exact path="/" element={<PropertyListing data={data}/>} />
-          <Route path="/details/:id" element={<Details />} />
-          <Route path="/cart" element={<CartComponent />} />
-          <Route path="/contactUs"  element={<NavigationHeading/>} />
-          <Route path="/header" element={<Header/>}></Route>
+        <Routes basename="/reactEcom">
+          <Route exact path="/reactEcom" element={<PropertyListing data={data}/>} />
+          <Route path="/reactEcom/details/:id" element={<Details />} />
+          <Route path="/reactEcom/cart" element={<CartComponent />} />
+          <Route path="/reactEcom/contactUs" element={<NavigationHeading />} />
+          <Route path="/reactEcom/header" element={<Header/>}></Route>
           
         </Routes>
     
