@@ -22,13 +22,13 @@ function PropertyListing(props) {
   
 
   const handleClick = (id) => {
-    navigate(`/details/${id}`);
+    navigate(`/reactEcom/details/${id}`);
   };
 
   const addToCart = (product) => {
     console.log('Adding to cart:', product);
     setCartItems((prevCartItems) => [...prevCartItems, product]);
-    console.log(cartItems); // Check if the state is updated
+    console.log(cartItems); 
   };
   
 
