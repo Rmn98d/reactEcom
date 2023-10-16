@@ -13,6 +13,7 @@ function Details() {
   const cartItems = []; 
 
 
+
   useEffect(() => {
     axios
       .get(`https://dummyjson.com/products/${id}`)
@@ -39,7 +40,7 @@ function Details() {
   
     <div className='arrow'>
     <div className='continer'>
-   <a href='/'>
+   <a href='/reactEcom'>
    <img src='/images/right-arrow.jpg' alt='not found' style={{float:'right',width:'30px',padding:'5px'}}/>
    </a>
     </div>
@@ -49,10 +50,10 @@ function Details() {
         <div>Loading...</div>
       ) : (
         <>
-          <Row className='row detail'>
-            <h1 style={{ color:'rgb(26, 15, 46)'}}>Details</h1>
+          <Row className='row detail '>
+            <h1 style={{ color:'rgb(26, 15, 46)',fontSize:'50px',fontWeight:'bold'}}>Details</h1>
 
-            <Col className="col-lg-2 col-md-2 col-sm-12 col-xs-12 col">
+            <Col className=" col-md-2 col-12 order-md-1 order-2 col">
             {details && details.map((detail) => (
   <Card className="p-2 sideImgs" key={detail.id}>
     <CardImg className="sideimg" src={detail.thumbnail} height={100} style={{width:'80px', margin:'15px 0 0 0 '}}/>
@@ -68,7 +69,7 @@ function Details() {
             </Col> 
 
 
-            <Col className="col-lg-4 col-md-4 col-sm-12 col-xs-12 p-1 mainImgCol col">
+            <Col className=" col-md-4 col-12 order-md-2 order-1 p-1 mainImgCol col">
             {details && details.map((detail) => (
   <Card className="p-2 imgCard" key={detail.id}>
     <CardImg className='mainImg' src={detail.thumbnail}/>
@@ -79,7 +80,7 @@ function Details() {
 
             </Col> 
 
-                <Col className="col-lg-6 col-md-6 col-sm-12 col-xs-12 content col">
+                <Col className=" col-md-6 col-12 order-md-3 order-3 content col">
             {details && details.map((detail) => (
   <Card className="contentCard" key={detail.id}>
    
