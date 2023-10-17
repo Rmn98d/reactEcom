@@ -69,7 +69,7 @@ function Details() {
             </Col> 
 
 
-            <Col className=" col-md-4 col-12 order-md-2 order-1 p-1 mainImgCol col">
+            <Col className=" col-md-4 col-12 d-none order-md-2 order-1 p-1 mainImgCol col">
             {details && details.map((detail) => (
   <Card className="p-2 imgCard" key={detail.id}>
     <CardImg className='mainImg' src={detail.thumbnail}/>
