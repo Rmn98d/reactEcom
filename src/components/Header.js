@@ -51,7 +51,7 @@ function Header() {
               <div className='col-lg-9 col-sm-5 menu'>
               <div className='col-lg-1  col-sm-2 mt-2'>
                 <li>
-                  <a href='/#'>ContactUs</a>
+                  <a href='/reactEcom/contactUs'>ContactUs</a>
                 </li>
               </div>
               <div className='col-lg-1 col-sm-2 mt-2'>
